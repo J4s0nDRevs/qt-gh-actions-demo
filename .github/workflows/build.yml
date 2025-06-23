@@ -26,4 +26,4 @@ jobs:
           cmake --build .
       
       - name: Run Test
-        run: ctest --output-on-failure
+        run: ctest --output-on-failure --verbose
